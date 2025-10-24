@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('fonts/AvenirNextLTPro-Regular.eot');
+  src: url('fonts/AvenirNextLTPro-Regulard41d.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+  url('fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
+  url('fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Medium';
+  src: url('fonts/AvenirNextLTPro-Medium.eot');
+  src: url('fonts/AvenirNextLTPro-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirNextLTPro-Medium.woff') format('woff'),
+  url('fonts/AvenirNextLTPro-Medium.ttf') format('truetype'),
+  url('fonts/AvenirNextLTPro-Medium.svg#AvenirNextLTPro-Medium') format('svg');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url('fonts/AvenirNextLTPro-Bold.eot');
+  src: url('fonts/AvenirNextLTPro-Boldd41d.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+  url('fonts/AvenirNextLTPro-Bold.ttf') format('truetype'),
+  url('fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-It';
+  src: url('fonts/AvenirNextLTPro-It.eot');
+  src: url('fonts/AvenirNextLTPro-Itd41d.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirNextLTPro-It.woff') format('woff'),
+  url('fonts/AvenirNextLTPro-It.ttf') format('truetype'),
+  url('fonts/AvenirNextLTPro-It.svg#AvenirNextLTPro-It') format('svg');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Demi';
+  src: url('fonts/AvenirNextLTPro-Demi.eot');
+  src: url('fonts/AvenirNextLTPro-Demid41d.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirNextLTPro-Demi.woff') format('woff'),
+  url('fonts/AvenirNextLTPro-Demi.ttf') format('truetype'),
+  url('fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro-DemiIt';
+  src: url('fonts/AvenirNextLTPro-DemiIt.eot');
+  src: url('fonts/AvenirNextLTPro-DemiItd41d.eot?#iefix') format('embedded-opentype'),
+  url('fonts/AvenirNextLTPro-DemiIt.woff') format('woff'),
+  url('fonts/AvenirNextLTPro-DemiIt.ttf') format('truetype'),
+  url('fonts/AvenirNextLTPro-DemiIt.svg#AvenirNextLTPro-DemiIt') format('svg');
+}
+
+.content-left {
+    margin-right: 240px;
+}
+
+div.info, .important, div.question, p.question {
+    padding: 45px 10px 10px; 
+    background-repeat: no-repeat; 
+    background-position: 10px 10px;
+    background-color: #E3E3E3;
+}
+
+.blockquote-right {
+    width: 180px;
+    clear: right;
+    float: right;
+    margin: 0px -220px 10px 0px;
+}
+
+.border-top {
+    border-top: .1em solid #000000;
+}
+
+.border-top-thick {
+    border-top: thick solid #000000;
+    padding-top: .5em;
+}
+
+.small-text {
+    font-size: 7pt;
+}
+
+.election-date {
+    font-weight: normal;
+    display: block;
+}
+
+div.notes {
+    text-align: center;
+}

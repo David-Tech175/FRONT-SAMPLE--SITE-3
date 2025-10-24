@@ -1,0 +1,695 @@
+#evag-container {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#evag-content {
+	font-family: 'AvenirNextLTPro-Regular' !important;
+    font-size: 10pt !important;
+    float: left;
+    width: 70%
+}
+#evag-menu {
+    float: left;
+    width: 15%
+}
+#evag-menu a {
+    text-decoration: none;
+}
+#evag-buttons {
+    float: right;
+    clear: both;
+    text-align: center;
+}
+#evag-menu ol, #evag-menu ul {
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+table.evag {
+    width: 100%;
+    line-height: 1.2em;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: 1px solid #CCC;
+}
+table.evag tr th {
+    font-size: 1.2em;
+    padding: 5px 0;
+    vertical-align: top;
+    background: #29496f;
+    border: 1px solid #29496f;
+    border-bottom: 2px solid #d34764;
+    color: #fff;
+    border-right: 1px solid #072b58;
+    -webkit-box-shadow: 1px 0 2px #39577a inset;
+    -moz-box-shadow: 1px 0 2px #39577a inset;
+    box-shadow: 1px 0 2px #39577a inset;
+}
+
+.voting-request-type {
+	font-size: 1.2em;
+	font-weight: bold;
+	word-break: keep-all;
+}
+
+table.evag tr th.no-red {
+    border-bottom: 1px solid #072b58;
+}
+table.evag tr th .election-date {
+    font-size: .83333em;
+}
+table.evag tr td span.date {
+    padding-bottom: 7px;
+}
+table.evag tr td span.date.last {
+    padding-bottom: 0;
+}
+table.evag tr td {
+    padding: 1em;
+}
+table.evag.landing-page tr th {
+    font-size: 1em;
+}
+table.evag td span {
+    margin-right: 5px;
+}
+table.evag th a {
+    color: #fff;
+}
+table.evag tr {
+    padding-bottom: 5px;
+    border-top: 1px solid #000;
+}
+table.evag td {
+    text-align: center;
+    border: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 5px;
+    min-width: 130px;
+}
+table.evag .left-col {
+    text-align: left;
+    background: #fff;
+    padding: 5px;
+    color: #000;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    vertical-align: middle;
+}
+table.evag .rule-1 {
+    display: block;
+    font-weight: bold;
+}
+table.evag .rule-1.date {
+    font-weight: 500;
+}
+table.evag .rule-2 {
+    display: block;
+}
+
+#deadline-rule table.evag .rule-2 {
+    font-weight: bold;
+}
+
+
+table.evag .rule-3 {
+    display: block;
+}
+table.evag tr.even td {
+    background: #e1e6fd;
+}
+table.evag tr.odd td {
+    background: #fff;
+}
+table.evag tr.even .left-col {
+    background: #e1e6fd;
+}
+table.evag tr.even .left-col.election-date {
+    background: #29496f;
+}
+table.evag td.bold-text, li.bold-text {
+    font-weight: bold;
+}
+
+/* hide pdf table from view */
+table.rules {
+	display: none;
+}
+
+table.rules {
+  border-collapse: collapse;
+  border-bottom: thin solid black;
+  page-break-inside: auto;
+  /*-fs-table-paginate: unset;*/
+}
+
+table.rules tbody tr td {
+  border-top: thin solid #000;
+  padding: 0.25em 0;
+  margin: 0.25em 0;
+  page-break-inside: auto;
+}
+
+
+div#evag-content h1, div#evag-content h2, div#evag-content h3, div#evag-content h4 {
+    color: #000;
+}
+.notes {
+    padding: 5px 0 0 55px;
+    width: 93%;
+    min-height: 50px;
+    margin-left: 15px;
+    text-align: left !important;
+    color: #8b1818;
+    background: url('../images/alert.png') left center no-repeat;
+    font-weight: bold;
+}
+.candidates-warning {
+	padding: 13px 0 0 45px;
+    width: 93%;
+    min-height: 50px;
+    margin-left: 15px;
+    text-align: left !important;
+    background: url('../images/alert-grey.png') left center no-repeat;
+    font-weight: bold;
+    
+      color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  background-position: 10px;
+}
+
+.alert-sm-grey {
+    padding: 5px 0 5px 30px;
+    width: 93%;
+    min-height: 20px;
+    margin-left: 15px;
+    text-align: left !important;
+    color: #828282;
+    background: url('../images/alert-grey.png') left center no-repeat;
+    font-weight: bold;
+    background-size: 20px;
+}
+div#evag-content span.version {
+    font-weight: bold;
+    float: right;
+    display: block;
+    padding: 1em 0;
+}
+div#evag-content span.version.live {
+    background: #b93232;
+    border: 1px solid #570c0c;
+    padding: 5px;
+    color: white;
+}
+div#evag-buttons .button {
+    margin-top: 1em;
+}
+div#evag-content dl {
+    overflow: hidden;
+}
+div#evag-content dt {
+    width: 28%;
+    font-weight: bold;
+    float: left;
+    clear: both;
+    padding-top: .5em;
+}
+div#evag-content dd {
+    width: 70%;
+    float: right;
+    clear: right;
+    margin: 0;
+    padding-top: .5em;
+}
+div#evag-content dd p {
+    margin: 0;
+}
+div#evag-content fieldset p.field span.instructions {
+    margin-left: 33%}
+div#evag-content div#voted-ballot-dates fieldset p.field label {
+    width: 15%;
+    text-align: center;
+}
+div#evag-content div#voted-ballot-dates fieldset p.field span.instructions {
+    margin-left: 20%}
+#evag-container .rules .row {
+    margin: 0;
+}
+div#evag-content fieldset p.field {
+    margin: 0;
+}
+hr.thick {
+    border: 2px solid #000;
+}
+#evag-content .col-3, #evag-content .col-9 {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#evag-content .rule-row dt, #evag-content .rule-row dd {
+    float: none;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#evag-content .rule-row p {
+    margin: 5px;
+}
+#evag-content .rule-row {
+    padding: 5px;
+}
+#evag-content .rule-row.even {
+    background: #e8eeff;
+}
+.comment-group {
+    position: absolute;
+    right: 0;
+    width: 28%
+}
+.comment-group .count {
+	font-weight:bold;
+}
+.comment-group textarea[readonly] {
+    background: transparent !important;
+    border: 0;
+    outline: 0;
+    display:none;
+}
+.comment-group-box {
+    padding-bottom: 5px;
+    border:1px solid transparent;
+}
+.comment-group.focus .comment-group-box{
+	border:1px solid #999;
+	border-radius:5px;
+}
+.comment-remark {
+	background:#FFF;
+	padding: 8px;
+	margin: 4px 0;
+	border-radius: 4px;
+	border: 1px solid #C0C0C0;
+	margin-left:15px;
+	position:relative;
+}
+.comment-remark:before{
+	content: url('../images/comment.png');
+	position:absolute;
+	left:-14px;
+}
+.comment-form {
+	
+}
+.comment-group .comment-heading {
+    padding: 10px 3px 5px;
+}
+.comment-group .comment-heading .label{
+	font-size:12px;
+	display:block;
+	float:left;
+	margin-top:5px;
+}
+.comment-group .comment-heading .fa.btn{
+	font-size:14px;
+	margin-left:4px;
+	padding: 2px 6px;
+	display:block;
+	float:left;
+}
+.comment-heading .person {
+    font-weight: bold;
+    display:block;
+}
+.comment-group .comment-heading:hover {
+}
+.comment-group .buttons input {
+    margin: 1em 0;
+}
+.comment-group textarea {
+    width: 99%;
+}
+.comment-group textarea, .comment-group textarea.focus {
+    background: #fff;
+}
+.comment-group label, .comment-group strong {
+    display: none;
+}
+#evag-container .hover {
+    background-color: #f2f2f2;
+    cursor:pointer;
+}
+.focus {
+    background-color: #f2f2f2;
+}
+.comment-group textarea {
+    min-height: 75px;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #999;
+    border-radius:4px;
+}
+.comment-group.focus {
+	-webkit-box-shadow: 2px 2px 3px -2px #B3B3B3;
+  	-moz-box-shadow: 2px 2px 3px -2px #B3B3B3;
+     box-shadow: 2px 2px 3px -2px #B3B3B3;	
+}
+.focus label, .hover label {
+    background-color: #c2dfff;
+}
+.comment-title, .comment-interior {
+    padding: 0 2px 0 1em;
+}
+.comment-title {
+    display: block;
+    zoom: 1;
+    overflow: auto;
+}
+.comment-group .link, .comment-group .toggle {
+    cursor: pointer;
+}
+.lastUpdated {
+    text-decoration: italic;
+    display:block;
+}
+.comment-title .toggle {
+    padding: 3px;
+    float:left;
+}
+.comments-nav {
+    float: right;
+    width: 100%;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+.comments-nav .button {
+    height: 24px !important;
+    line-height: 20px;
+    padding: 2px 5px;
+    margin: 25px 0 0 0;
+}
+.comment-group a:hover{
+	text-decoration:none;
+}
+.comments-nav, .status-offset {
+    display: none;
+}
+.comment-interior {
+    display: none;
+}
+.focus .comment-interior {
+    display: block;
+}
+.focus .comments-nav, .focus .status-offset {
+    display: inline;
+}
+.comment-group {
+    display: none;
+    z-index: 99;
+}
+#evag-container .has-other-comments.comment-group, #evag-container .has-my-comments.comment-group, #evag-container .hover.comment-group, #evag-container .focus.comment-group {
+    display: block;
+}
+#evag-container .focus.comment-group {
+    z-index: 100;
+}
+div.info {
+    background-image: url('../images/info-i.png');
+}
+.important {
+    background-image: url('../images/important.png');
+}
+div.question, p.question {
+    background-image: url('../images/question.png');
+}
+#seo-view h1, .evag h1 {
+    font-weight: bold;
+}
+#seo-view h2, .evag h2 {
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+}
+#seo-view h4, .evag h4 {
+    font-weight: bold;
+}
+#seo-view .rules, .evag .rules {
+    border: 1px solid #ccc;
+    padding: 0 15px;
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 30px;
+}
+#seo-view .rule-row, .evag .rule-row {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+#seo-view .rule-row p, .evag .rule-row p {
+    margin: 0;
+}
+#seo-view .rules .rule-row:last-child, .evag .rules .rule-row:last-child {
+    border-bottom: 0;
+}
+#seo-view .rule-row.even, .evag .rule-row.even {
+    background: #e8eeff;
+}
+.rules-header {
+    text-align: center;
+}
+.submission {
+    padding: 5px 10px;
+    background: #f0f0f0;
+    border: 1px solid #777;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.submission h3 {
+    color: #000;
+    margin-top: 10px;
+}
+.-to {
+    display: none;
+}
+#jump-to {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 300;
+    display: inline;
+}
+@media(max-width:849px) {
+    #jump-to {
+    display: none;
+}
+}#jump-to .button {
+    margin: 0;
+}
+#jump-to .dropdown-menu {
+    max-height: 325px;
+    overflow-y: auto;
+}
+#evag-container #jump-to {
+    display: none;
+}
+#evag-container .pdf-download {
+    display: none;
+}
+#evag-container div#evag-content dl {
+    border-top: 1px solid #ccc;
+}
+div.rules #evag-container div#evag-content dl {
+    border: 0;
+}
+#evag-container div#evag-content dt {
+    margin-top: 5px;
+    display: block;
+    padding-top: 0;
+    float: none;
+    width: 100%
+}
+#evag-container div#evag-content dd {
+    display: block;
+    float: none;
+    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+dd.instructions p br {
+    height: 1px;
+    content: "";
+    margin: .5em;
+    display: block;
+    font-size: 24%;
+}
+
+.evag #jump-to a.button:hover {
+    text-decoration: none;
+}
+.evag .rule-row dt, .evag .rule-row dd {
+    padding: 0 10px 0 10px;
+}
+.pdf-download img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+a.pdf-download {
+    font-size: 12px;
+    display:inline-block;
+    margin-bottom: 5px;
+}
+.body-container div#chapter-2 h1 {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#chapter-2 {
+    position: relative;
+    padding-top: 5px;
+}
+span.break {
+    display: none;
+}
+
+.disable-link:hover {
+	color: #000;
+    text-decoration: none;
+}
+.disable-link:link {
+	color: #000;
+    text-decoration: none;
+}
+.disable-link:visited {
+	color: #000;
+    text-decoration: none;
+}
+.disable-link:active {
+	color: #000;
+    text-decoration: none;
+}
+
+.card-evag {
+	    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: -2px;
+}
+.card-header-evag {
+    padding: 0rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-header-evag + div > .card-body-evag{
+	padding: 0rem 1.25rem;
+}
+
+.card-header-evag:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.icon-sm{
+	font-size:.75em;
+}
+
+.centered-header {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.wide-table-wrapper {
+	width: 100%; 
+	overflow-y: auto; 
+	_overflow: auto; 
+	margin: 0 0 1em;
+}
+
+.wide-table-wrapper::-webkit-scrollbar
+{
+	-webkit-appearance: none;
+	width: 14px;
+	height: 14px;
+}
+
+.wide-table-wrapper::-webkit-scrollbar-thumb
+{
+	border-radius: 8px;
+	border: 3px solid #fff;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+#evag-progress{
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+/*-- the two-column div is not used in the web page view only in the pdf */
+
+.ui-fouo{
+	background-color: #7ae74e;
+    width: 45px;
+    height: 25px;
+    position: absolute;
+    /* right: 40px; */
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    right: 630px;
+    top: 3px;
+}
+
+.ui-fouo-mobile{
+	display:none;
+}
+
+
+.navbar-toggle {
+	height: 58px !important;
+}
+
+.complementary{
+	margin-top: 5px;
+}
+
+#menu img.mobile-header {
+    margin-top: 17px !important;
+}
+
+#menu {
+	height: 58px !important;
+}
+
+@media (max-width: 849px) {
+  .ui-fouo-mobile{
+  	display: block !important;
+	background-color: #7ae74e;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+        position: relative;
+    top: 7px;
+	}
+}
+
+
+ 

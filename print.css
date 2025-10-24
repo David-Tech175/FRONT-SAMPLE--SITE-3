@@ -1,0 +1,95 @@
+/*** Print Only Styling ***/
+
+#footer {
+	display:none;
+}
+.footer-extras{
+	display:none;
+}
+.hidden-sm, .hidden-xs{
+	display:block !important;
+}
+
+div {
+	word-break:break-word;
+}
+#sub-menu{
+	display:none;
+}
+
+#menu {
+	display:none;
+}
+.menu-search{
+	display:none;
+}
+
+#breadcrumbs {
+	display:none;
+}
+
+#header {
+	border:none;
+}
+
+#content{
+	width:100%;
+}
+
+.top-bar{
+	display:none !important;
+}
+
+.page-header .slogan {
+	display:none;
+}
+
+.social-media {
+	display:none;
+}
+
+.header-image{
+	width:350px; 
+	margin: 0px auto;
+	display:block!;
+}
+
+#header {
+	text-align:center;
+}
+
+p { font-size: 12pt; }
+
+a {text-decoration: underline; }
+
+.print-header{
+	padding:5px 10px;
+	width:90%;
+	border:2px solid #990000;
+	margin: 0 0 15px;
+	margin-left:5%;
+	display:block;
+	text-align:left;
+	font-size:18px;
+}
+
+.page-widget {
+	display:none;
+}
+
+#jump-to{
+	display:none;
+}
+
+#content {
+	border:none;
+	background:#fff;
+}
+
+body { font-size:12pt}
+h1,h2,h3,h4,h5,h6,body 
+{ font-family: Georgia, ‘Times New Roman’, serif; }
+
+.jvectormap-zoomin, .jvectormap-zoomout {
+	display:none !important;
+}

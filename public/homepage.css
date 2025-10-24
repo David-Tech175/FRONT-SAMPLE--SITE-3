@@ -1,0 +1,420 @@
+/* ---------------TOP SECTION--------------- */
+
+#top-section { 
+	background: #E7EDFF; 
+	margin: -5px -15px 0 -15px;
+	overflow: hidden;	
+	padding: 25px 25px 30px;
+}
+
+#home-carousel {
+/* 	padding-bottom: 27%;
+ */}
+
+#hero {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#hero p {
+	color: white;
+	text-align: center;
+}
+
+#hero p:nth-of-type(1) {
+	margin-bottom: 25px;
+}
+
+#hero p:nth-of-type(1) span:nth-of-type(1) {
+	font-size: 40px;
+	font-weight: 550;
+}
+
+#hero p:nth-of-type(1) span:nth-of-type(2) {
+	font-size: 18px;
+	font-weight: 320;
+}
+
+#hero p:nth-of-type(2) {
+	font-size: 13px;
+	font-weight: 450;
+	letter-spacing: 4px;
+	margin-bottom: 3px;
+}
+
+#hero p:nth-of-type(3) {
+	color: #d9d9d9;
+	font-size: 17px;
+	font-weight: 300;
+	margin-top: 15px;
+}
+
+#hero .carousel-control {
+	width: 5%;
+}
+
+#voters-start-here-icon {
+	margin: 0 auto 10px;
+	width: 1em;
+}
+
+#request-absentee-ballot {
+	background-color: #da0b5b;
+	border: .5px solid black;
+	border-radius: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	color: white;
+	font-size: 18px;
+	font-weight: 450;
+	height: 70px;	
+	padding: 5px;
+	width: 350px;
+	margin: 0 auto 25px;
+}
+
+#ballot-non-receipt:link {
+	color: #cccccc;
+	text-decoration: underline;
+}
+
+#ballot-non-receipt:visited {
+	color: #cccccc;
+	text-decoration: underline;
+}
+
+#ballot-non-receipt:hover {
+	color: #cccccc;
+	text-decoration: underline;
+}
+
+#ballot-non-receipt:active {
+	color: #cccccc;
+	text-decoration: underline;
+}
+
+.election-countdown {
+	width: 100%; 
+	text-align: center;
+	margin-top: 20px;
+	padding: 0;
+	margin-bottom: -10px;
+}
+
+.election-countdown h4 {
+	color: white; 
+	background: #29496f; 
+	margin: 0; 
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+/* ---------------MID SECTION--------------- */
+
+#mid-section {
+	margin: -5px -15px 0 -15px;
+	overflow: hidden;
+	padding: 25px 25px 15px;
+}
+
+#state-section {
+	background-color: #f2f2f2;
+	margin: 5px 0;
+	overflow: auto;
+	padding: 30px 20px 35px;
+}
+
+#state-section > div:nth-of-type(1) {
+	color: #27476c;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#state-section > div:nth-of-type(2) {
+	margin: 0 auto;
+}
+
+#state-section > div:nth-of-type(2) div {
+}
+
+#state-section li {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#state-section > div:nth-of-type(2) > div:nth-of-type(2) div p {
+	text-align: center;
+}
+
+#state-section > div:nth-of-type(2) > div:nth-of-type(1) div,
+#state-section > div:nth-of-type(2) > div:nth-of-type(2) div {
+	margin: 0 auto;
+}
+
+
+@media (min-width: 500px) {
+	#state-section > div:nth-of-type(2) > div:nth-of-type(1) div {
+		margin-left: 25%;
+	}
+}
+
+
+@media (max-width: 849px) {
+	.carousel-caption {
+		font-size: 13px;
+	}
+}
+
+#state-select {
+	margin: 15px auto 15px;
+	width: 290px;
+}
+
+#military-voters, #citizen-voters {
+	text-decoration: underline;
+}
+
+.quick-links h3.alerts {
+	background: url('../../../images/quick_links_icon.png') top left no-repeat;
+	font-weight: bold;
+	color: #28496d;
+	padding: 10px 0 10px 50px;
+	margin: 0;
+	font-family: helvetica;
+}
+
+#quick-links {
+	position: relative;
+	padding: 10px 10px 15px;
+}
+
+.quick-links ul {
+  list-style-image: url('../../../images/quick-links-list.png');
+	padding-top: 10px;
+	font-family: arial;
+	padding-left: 30px;
+	size: 14px;	
+}
+.quick-links li {
+	margin-bottom: 13px;
+	padding-left: 10px;
+}
+
+.link-color {
+	color: #317ab9;
+}
+
+.quick-links a {
+	color: #317ab9;
+	font-weight: bold;
+}
+
+.contact-fvap {
+	background:#29496f; 
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-left: -10px;
+	border: 1px solid #003366;
+	text-align: center;
+}
+
+.contact-fvap span {
+	color: white;
+	font-size: 18px;
+	padding: 15px 0 15px 50px;
+	margin-left: -30px;
+	background: url('../../../images/contact_icon.png') center left no-repeat;
+}
+
+.contact-fvap a {
+	display: block;
+	background: #29496f; 
+	border: 1px solid #466583;
+	padding: 7px;
+}
+
+.contact-fvap a:hover {
+	text-decoration: none;
+	background: #47688B; 
+}
+
+/* ---------------LOWER SECTION--------------- */
+
+.lower-section {
+	overflow: hidden;
+	padding: 0 15px;	
+}
+
+/* ---------------UPCOMING ELECTION DATES--------------- */
+
+.news-alerts {
+	width: 100%;
+}
+
+span.state {
+	font-weight: bold;
+}
+
+a.upcoming-elections {
+	color: #003366;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* ---------------LATEST FVAP NEWS--------------- */
+
+#news h3 {
+	background: url('../../../images/news-icon.png') 10px 0px no-repeat;
+	padding-left: 60px;	
+	padding-top: 10px;
+}
+
+#news-section a {
+	font-weight: bold;
+}
+
+#news-section h4 {
+	font-size: 14px;
+	margin: 5px 0 0 0;
+}
+
+.news-item {
+	border-bottom: 1px solid #ccc;
+	padding: 5px 5px 10px;
+}
+
+.news-item .date {
+	color: #666;
+	display: block;
+	margin-top: 5px;
+}
+
+#all-news {
+	margin-top: 10px;
+}
+
+#all-news a {
+	color: #003366;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+/* ---------------EMAIL UPDATES--------------- */
+
+#email-section {
+	/*border: 1px solid #cccccc;*/
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#email-section .button {
+	background-color: #0099e6;
+	color: white;
+	margin: 0 auto;
+	width: 100px;
+	font-weight: normal;
+}
+
+#email-section button {
+	background-color: #0099e6;
+	color: white;
+	margin: 0 auto;
+	width: 100px;
+}
+
+/* ----------- Desktop Screens ----------- */
+@media screen and (min-device-width: 1130px) 
+{ 
+  	#email-section {
+		background: url(../../../images/subscribe/Subscribe_Banner_L_Pre_Desktop_1130x407.jpg);
+		height: 350px;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+	}
+}
+
+/* ----------- Tablet Screens ----------- */
+@media screen and (min-device-width: 1024px) and (max-device-width: 1129px) 
+{ 
+  	#email-section {
+		background: url(../../../images/subscribe/Subscribe_Banner_M_Pre_Tablet_1024x407.jpg);
+		height: 350px;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+	}
+}
+
+/* ----------- Mobile Screens ----------- */
+@media screen and (min-device-width: 849px) and (max-device-width: 1023px) 
+{ 
+  	#email-section {
+		background: url(../../../images/subscribe/Subscribe_Banner_S_Pre_Mobile_849x407.jpg);
+		height: 350px;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+	}
+}
+
+/* ----------- Small Mobile Screens ----------- */
+@media screen and (max-device-width: 848px) 
+{ 
+  	#email-section {
+		background: url(../../../images/subscribe/Subscribe_Banner_XS_Pre_479x493.jpg);
+		height: 350px;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+	}
+}
+
+/* ---------------MISC--------------- */
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.1em 0.1em 0 0;
+	color: white;
+	content: '';
+	display: inline-block;
+	height: 1em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 1em;
+}
+
+.chevron.right:before {
+	left: 0;
+	transform: rotate(45deg);
+}
+
+.chevron.bottom:before {
+	top: 0;
+	transform: rotate(135deg);
+}
+
+.chevron.left:before {
+	left: 0.25em;
+	transform: rotate(-135deg);
+}
+
+h3.alerts {
+	border-bottom: 1px solid #bf3959;
+	color: #27476c;
+	font-family: helvetica;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 10px 0 0 0;
+	padding: 10px 0 10px 10px;
+}
+
+p.votegovtext {
+	text-align: center;
+	font-weight: bold;
+}

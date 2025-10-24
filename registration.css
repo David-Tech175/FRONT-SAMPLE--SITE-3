@@ -1,0 +1,93 @@
+/* ==========================================================================
+	Registration Page Styling
+   ========================================================================== */
+
+ul#register-steps {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;	
+}
+
+ul#register-steps li {
+	padding: 5px 10px 0 10px;	
+	width: 185px;
+	float: left;
+	text-align:center;
+	margin: 0 -17px 0 0;
+	color:#FFFFFF;
+	line-height:17px;
+	font-size:1em;
+	height: 44px;
+	font-weight:bold;
+	background: url(../images/loginStep.png) no-repeat;
+}
+
+ul#register-steps li.active {
+	background-image: url(../images/loginStepA.png);
+	color: #FFFFFF;
+}
+
+@media (max-width: 940px) {
+	ul#register-steps li {
+		display:none;
+	}
+	
+	ul#register-steps li.active {
+		display:block;
+	}
+}
+
+#serviceUnitSelect, #dsnInput {
+	display: none;
+}
+
+.instructions {
+	padding-bottom:10px;
+}
+
+#privacyAct {
+	display:none;
+	padding:10px;
+	border:2px solid #003366;
+	background-color:#fff;
+}    
+.registerbuttons {
+	padding: 10px 0;
+	float:left;
+	clear:both;
+} 
+.registerbuttons.bump-left {
+	margin-left:180px;
+}
+.navigate.btn.btn-default{
+	margin-right:4px;
+}
+.agreements {
+	height:300px; 
+	overflow-y:scroll; 
+	border:5px solid #e6e6e6; 
+	padding:10px 20px;
+	width:100%;
+	margin-bottom:10px;
+}
+
+#step-designation p.field span {
+ display:block;
+ margin:10px 3px;
+}
+
+#designation-vao p.field span {
+	display:block;
+}
+
+.field em.error, .field label.error {
+	font-style: italic;
+	position: relative;
+	display: inline;
+	background: url("../images/icon_error_sml.png") top left no-repeat;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-left: 1em;
+	float: none;
+	font-weight:500;
+}
